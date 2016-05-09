@@ -1,10 +1,20 @@
 ﻿{
+  "packOptions": {
+    "summary": "MVVM Navigation framework UWP implementation. It allows you to perform navigation directly in you ViewModels and pass data directly to them. It also easily handles state persistence and conditional navigation based on screen size.",
+    "tags": [ "mvvm", "uwp", "navigation" ],
+    "owners": [ "Mephistofeles" ],
+    "iconUrl": "https://raw.githubusercontent.com/Mephistofeles/MVVM-Navigation/master/art/logo.128x128.png",
+    "projectUrl": "https://github.com/Mephistofeles/MVVM-Navigation",
+    "licenseUrl": "https://github.com/Mephistofeles/MVVM-Navigation/blob/master/LICENSE",
+    "requireLicenseAcceptance": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Mephistofeles/MVVM-Navigation.git"
+    }
+  },
   "version": "1.0.0-*",
   "description": "Bezysoftware.Navigation.UWP Class Library",
-  "authors": [ "pawel" ],
-  "tags": [ "" ],
-  "projectUrl": "https://github.com/Mephistofeles/MVVM-Navigation/blob/master/LICENSE",
-  "licenseUrl": "https://github.com/Mephistofeles/MVVM-Navigation",
+  "authors": [ "bezysoftware" ],
 
   "frameworks": {
     "uap10.0": {
@@ -17,7 +27,7 @@
     "Newtonsoft.Json": "8.0.3",
     "Bezysoftware.Navigation.Interfaces": "1.0.0-*",
     "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0",
-    "Microsoft.TargetingPack.Private.WinRT": "1.0.1" 
+    "Microsoft.TargetingPack.Private.WinRT": "1.0.1"
   },
   "runtimes": {
     "win10-arm": { },
