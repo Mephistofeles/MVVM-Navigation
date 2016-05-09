@@ -21,8 +21,8 @@ install:
 build_script:
   # dotnet info
   - ps: dotnet restore
-  - ps: dotnet pack src\Bezysoftware.Navigation.Interfaces
-  - ps: dotnet pack src\Bezysoftware.Navigation.UWP
+  - ps: dotnet pack src\Bezysoftware.Navigation.Interfaces -o "artifacts\bin\Navigation" -c Release
+  - ps: dotnet pack src\Bezysoftware.Navigation.UWP -o "artifacts\bin\Navigation" -c Release
 
 test: off 
 version: 0.0.1.{build}
