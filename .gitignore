@@ -38,6 +38,15 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+# DNX
+artifacts/
+
+# NuGet V3 artifacts
+*-packages.config
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
 *_i.c
 *_p.c
 *_i.h

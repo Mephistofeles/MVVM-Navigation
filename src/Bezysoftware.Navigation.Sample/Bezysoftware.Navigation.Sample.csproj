@@ -166,12 +166,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bezysoftware.Navigation\Bezysoftware.Navigation.csproj">
-      <Project>{266f0453-037e-4b40-8b63-be656514aebe}</Project>
-      <Name>Bezysoftware.Navigation</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

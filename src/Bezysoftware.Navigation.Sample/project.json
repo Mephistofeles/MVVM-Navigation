@@ -4,7 +4,8 @@
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.0.2",
     "MvvmLightLibs": "5.1.1",
-    "Unity": "3.5.1405-prerelease"
+    "Unity": "3.5.1405-prerelease",
+    "Bezysoftware.Navigation": "1.0.0-*"
   },
   "frameworks": {
     "uap10.0": {}

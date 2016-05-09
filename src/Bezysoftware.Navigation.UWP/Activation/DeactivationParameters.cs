@@ -5,7 +5,7 @@
     /// <summary>
     /// Container holding information about current deactivation
     /// </summary>
-    public class DeactivationParameters
+    public class DeactivationParameters : IDeactivationParameters
     {
         internal DeactivationParameters(Type targetViewModelType, object deactivationData)
         {

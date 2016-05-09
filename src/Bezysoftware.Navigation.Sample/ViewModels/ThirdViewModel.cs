@@ -36,7 +36,7 @@
             }
         }
 
-        public async Task DeactivateAsync(NavigationType navigationType, DeactivationParameters parameters)
+        public async Task DeactivateAsync(NavigationType navigationType, IDeactivationParameters parameters)
         {
             this.IsWorking = true;
 
@@ -60,7 +60,7 @@
             this.IsWorking = false;
         }
 
-        public async Task<bool> CanDeactivateAsync(NavigationType navigationType, DeactivationParameters parameters)
+        public async Task<bool> CanDeactivateAsync(NavigationType navigationType, IDeactivationParameters parameters)
         {
             // Do NOT normally do this in you MMVM application, using dialogs and other View-related things breaks MVVM
             // This is here only for simplicity

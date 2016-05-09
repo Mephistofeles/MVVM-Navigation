@@ -1,0 +1,19 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Bezysoftware.Navigation.Interfaces Class Library",
+  "authors": [ "pawel" ],
+  "tags": [ "" ],
+  "projectUrl": "https://github.com/Mephistofeles/MVVM-Navigation/blob/master/LICENSE",
+  "licenseUrl": "https://github.com/Mephistofeles/MVVM-Navigation",
+
+  "frameworks": {
+    "dotnet5.4": {
+      "dependencies": {
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516",
+        "System.ComponentModel": "4.0.1-beta-23516"
+      }
+    }
+  }
+}

@@ -12,6 +12,6 @@
         /// </summary>
         /// <param name="navigationType"> Type of navigation occurring. </param>
         /// <param name="parameters"> Deactivation parameters. </param>
-        Task DeactivateAsync(NavigationType navigationType, DeactivationParameters parameters);
+        Task DeactivateAsync(NavigationType navigationType, IDeactivationParameters parameters);
     }
 }
